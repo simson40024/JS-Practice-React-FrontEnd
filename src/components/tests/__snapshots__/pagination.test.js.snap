@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagination shoud create Pagination 1`] = `
+<div>
+  <div
+    class="pagination"
+  >
+    <button>
+      &lt;
+    </button>
+    <input
+      id="page-number"
+      value="2"
+    />
+    <button>
+      &gt;
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartFooter should create CartFooter 1`] = `
+<div>
+  <hr />
+  <div
+    class="cart-amount"
+  >
+    <button>
+      Confirm order
+    </button>
+    <p
+      class="amount"
+    >
+      5700
+       
+      UAH
+    </p>
+  </div>
+</div>
+`;

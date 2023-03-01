@@ -1,0 +1,34 @@
+.product-quantity {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  border-radius: 0.7em;
+  text-align: center;
+}
+
+.product-quantity input {
+  width: 2em;
+  text-align: center;
+  border: 0px;
+  margin: 0.5em;
+}
+
+.product-quantity button {
+  width: 30px;
+  /* margin: auto; */
+
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+}
+.hidden-br {
+  display: none;
+}
+@media (max-width: 700px) {
+  .product-quantity input {
+    margin: 0px;
+  }
+  .hidden-br {
+    display: block;
+  }
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu shoud create Menu 1`] = `
+<div>
+  <nav
+    class="main-menu"
+  >
+    <ul>
+      <li>
+        <a
+          href="/"
+        >
+          Shop
+        </a>
+      </li>
+      <li>
+        <a
+          href="/cart"
+        >
+          Cart
+        </a>
+      </li>
+      <li>
+        <a
+          href="/register"
+        >
+          Register
+        </a>
+      </li>
+      <li>
+        <a
+          href="/sign"
+        >
+          SignIn
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

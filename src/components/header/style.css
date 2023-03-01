@@ -1,0 +1,41 @@
+a:hover {
+  color: rgb(23, 1, 218);
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: rgb(25, 25, 25);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.logo {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.main-menu {
+  flex-grow: 4;
+}
+
+.currency {
+  flex-grow: 1;
+}
+
+.main-menu ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+#authorization-btn {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+}

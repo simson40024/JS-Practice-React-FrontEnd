@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthBar should create AuthBar with authorized user 1`] = `
+<div>
+  <div
+    class="authorization"
+  >
+    <div
+      id="authorization"
+      style="color: darkgreen;"
+    >
+      Authorized user: John Smitt
+    </div>
+    <button
+      id="authorization-btn"
+      style="display: initial;"
+    >
+      logOut
+    </button>
+  </div>
+</div>
+`;
+
+exports[`AuthBar should create AuthBar with not authorized user 1`] = `
+<div>
+  <div
+    class="authorization"
+  >
+    <div
+      id="authorization"
+      style="color: white;"
+    >
+      User not authorized
+    </div>
+    <button
+      id="authorization-btn"
+      style="display: none;"
+    >
+      logOut
+    </button>
+  </div>
+</div>
+`;

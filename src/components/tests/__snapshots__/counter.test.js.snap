@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should show counter 1`] = `
+<div>
+  <div
+    class="product-quantity"
+  >
+    <button
+      role="button"
+    >
+      -
+    </button>
+    <input
+      readonly=""
+      type="text"
+      value="2"
+    />
+    <button
+      role="button"
+    >
+      +
+    </button>
+  </div>
+</div>
+`;

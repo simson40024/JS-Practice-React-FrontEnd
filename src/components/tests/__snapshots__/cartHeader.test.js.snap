@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartHeader should create CartHeader 1`] = `
+<div>
+  <div
+    class="cart-header"
+  >
+    <div
+      class="cart-product"
+    >
+      <p>
+        Product
+      </p>
+    </div>
+    <div
+      class="cart-price"
+    >
+      <p>
+        Price
+      </p>
+    </div>
+    <div
+      class="cart-quantity"
+    >
+      <p>
+        Quantity
+      </p>
+    </div>
+    <div
+      class="cart-total"
+    >
+      <p>
+        Total
+      </p>
+    </div>
+    <div
+      class="cart-button"
+    />
+  </div>
+  <hr />
+</div>
+`;

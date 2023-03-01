@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product should create Product with props 1`] = `
+<div>
+  <div
+    class="product"
+    id="123"
+  >
+    <img
+      alt="product in the shop"
+      src="./test.img"
+      width="250px"
+    />
+    <p
+      class="product-name"
+    >
+      this cool t-shot
+    </p>
+    <p
+      class="product-price"
+    >
+      385
+       
+      UAH
+    </p>
+    <div
+      class="product-quantity"
+    >
+      <button
+        role="button"
+      >
+        -
+      </button>
+      <input
+        readonly=""
+        type="text"
+        value="1"
+      />
+      <button
+        role="button"
+      >
+        +
+      </button>
+    </div>
+    <button
+      class="add-to-cart"
+      role="button"
+    >
+      add to cart
+    </button>
+  </div>
+</div>
+`;

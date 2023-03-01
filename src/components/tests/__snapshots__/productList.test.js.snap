@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList should create ProductList with empty Products 1`] = `
+<div>
+  <div
+    class="loading"
+  >
+    loading...
+  </div>
+  <div
+    class="product-list"
+  />
+</div>
+`;
+
+exports[`ProductList should create ProductList with empty Products, and show LOADING ERRER 1`] = `
+<div>
+  <div
+    class="loading"
+  >
+    loading error
+  </div>
+  <div
+    class="product-list"
+  />
+</div>
+`;
+
+exports[`ProductList should create ProductList with filled Products 1`] = `
+<div>
+  <div
+    class="product-list"
+  >
+    <div
+      class="product"
+      id="123"
+    >
+      <img
+        alt="product in the shop"
+        src="/img.ipg"
+        width="250px"
+      />
+      <p
+        class="product-name"
+      >
+        first product
+      </p>
+      <p
+        class="product-price"
+      >
+        NaN
+         
+      </p>
+      <div
+        class="product-quantity"
+      >
+        <button
+          role="button"
+        >
+          -
+        </button>
+        <input
+          readonly=""
+          type="text"
+          value="1"
+        />
+        <button
+          role="button"
+        >
+          +
+        </button>
+      </div>
+      <button
+        class="add-to-cart"
+        role="button"
+      >
+        add to cart
+      </button>
+    </div>
+    <div
+      class="product"
+      id="134"
+    >
+      <img
+        alt="product in the shop"
+        src="/img.ipg"
+        width="250px"
+      />
+      <p
+        class="product-name"
+      >
+        second product
+      </p>
+      <p
+        class="product-price"
+      >
+        NaN
+         
+      </p>
+      <div
+        class="product-quantity"
+      >
+        <button
+          role="button"
+        >
+          -
+        </button>
+        <input
+          readonly=""
+          type="text"
+          value="1"
+        />
+        <button
+          role="button"
+        >
+          +
+        </button>
+      </div>
+      <button
+        class="add-to-cart"
+        role="button"
+      >
+        add to cart
+      </button>
+    </div>
+  </div>
+</div>
+`;

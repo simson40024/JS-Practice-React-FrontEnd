@@ -1,0 +1,34 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 500px;
+  margin: auto;
+}
+
+.register-form .required::after {
+  color: red;
+  content: "*";
+}
+
+.register-form div:not(.form-error) {
+  align-self: center;
+  margin: 1em;
+}
+.form-error {
+  color: red;
+}
+.register-form label {
+  margin-top: 1em;
+}
+.register-form input {
+  height: 2em;
+  border-radius: 0.5em;
+}
+.register-form button {
+  margin-top: 2em;
+  width: 150px;
+  height: 4em;
+  align-self: center;
+  border-radius: 1em;
+}

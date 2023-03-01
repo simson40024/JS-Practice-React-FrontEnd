@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency should create Currency with InitialState 1`] = `
+<div>
+  <div
+    class="currency"
+  >
+    <div>
+      Currency
+    </div>
+    <select
+      id="currency"
+      name="Curency"
+    >
+      <option
+        value="UAH"
+      >
+        UAH
+      </option>
+      <option
+        value="USD"
+      >
+        USD
+      </option>
+      <option
+        value="EUR"
+      >
+        EUR
+      </option>
+    </select>
+  </div>
+</div>
+`;

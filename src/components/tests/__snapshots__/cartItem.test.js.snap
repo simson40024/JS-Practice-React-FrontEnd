@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem should create CartItem 1`] = `
+<div>
+  <div
+    class="cart-row"
+    id="12345"
+  >
+    <div
+      class="cart-product"
+    >
+      <img
+        alt=""
+        src="./img.jpg"
+        width="150px"
+      />
+      <p>
+        cool T-shot
+      </p>
+    </div>
+    <div
+      class="cart-price"
+    >
+      <p>
+        380
+         
+        <br
+          class="hidden-br"
+        />
+        UAH
+      </p>
+    </div>
+    <div
+      class="product-quantity"
+    >
+      <button
+        role="button"
+      >
+        -
+      </button>
+      <input
+        readonly=""
+        type="text"
+        value="2"
+      />
+      <button
+        role="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      class="cart-total"
+    >
+      <p>
+        760
+         
+        <br
+          class="hidden-br"
+        />
+        UAH
+      </p>
+    </div>
+    <div
+      class="cart-button"
+    >
+      <button
+        title="delete produrt"
+      >
+        X
+      </button>
+    </div>
+  </div>
+</div>
+`;
